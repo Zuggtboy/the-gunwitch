@@ -1,0 +1,41 @@
+{
+    "name": "the-gunwitch",
+    "title": "The Gunwitch",
+    "description": "A class and three subclasses for D&D 5e, centered around spellslinging, gunslinging, and capturing and summoning the monsters you fight.",
+    "version": "0.8.9",
+    "author": "Zuggtboy",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "9",
+    "packs": [
+        {
+            "name": "gunwitch-class",
+            "label": "Gunwitch (Class)",
+            "path": "./packs/gunwitch-class.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "gunwitch-soul-eater",
+            "label": "Gunwitch (Soul Eater)",
+            "path": "./packs/gunwitch-soul-eater.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "gunwitch-spellshot",
+            "label": "Gunwitch (Spellshot)",
+            "path": "./packs/gunwitch-spellshot.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "gunwitch-war-witch",
+            "label": "Gunwitch (War-Witch)",
+            "path": "./packs/gunwitch-war-witch.db",
+            "entity": "Item",
+            "type": "Item"
+        }
+    ],
+    "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+  }
