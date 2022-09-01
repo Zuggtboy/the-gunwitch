@@ -1,56 +1,55 @@
 {
-    "name": "the-gunwitch",
+    "id": "the-gunwitch",
     "title": "The Gunwitch",
     "description": "A class and three subclasses for D&amp;D 5e, centered around spellslinging, gunslinging, and capturing and summoning the monsters you fight.",
-    "author": "Zuggtboy",
-    "authors": [],
-    "flags": {},
-    "version": "0.8.9",
-    "minimumCoreVersion": "0.8.6",
-    "compatibleCoreVersion": "9",
-    "scripts": [],
-    "esmodules": [],
-    "styles": [],
-    "languages": [],
+    "authors": [
+        {
+            "name": "Zuggtboy"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+        "Minimum": "9",
+        "verified": "10"
+    },
     "packs": [
         {
             "name": "gunwitch-class",
             "label": "Gunwitch (Class)",
+            "system": "dnd5e",
             "path": "./packs/gunwitch-class.db",
             "entity": "Item",
-            "type": "Item",
-            "private": false
+            "type": "Item"
         },
         {
             "name": "gunwitch-soul-eater",
             "label": "Gunwitch (Soul Eater)",
+            "system": "dnd5e",
             "path": "./packs/gunwitch-soul-eater.db",
             "entity": "Item",
-            "type": "Item",
-            "private": false
+            "type": "Item"
         },
         {
             "name": "gunwitch-spellshot",
             "label": "Gunwitch (Spellshot)",
+            "system": "dnd5e",
             "path": "./packs/gunwitch-spellshot.db",
             "entity": "Item",
-            "type": "Item",
-            "private": false
+            "type": "Item"
         },
         {
             "name": "gunwitch-war-witch",
             "label": "Gunwitch (War-Witch)",
+            "system": "dnd5e",
             "path": "./packs/gunwitch-war-witch.db",
             "entity": "Item",
-            "type": "Item",
-            "private": false
+            "type": "Item"
         }
     ],
-    "system": [],
-    "dependencies": [],
+    "system": [ "dnd5e" ],
     "socket": false,
     "manifest": "https://raw.githubusercontent.com/Zuggtboy/the-gunwitch/master/module.json",
-    "download": "https://github.com/Zuggtboy/the-gunwitch/releases/download/v0.8.9/the-gunwitch.zip",
+    "download": "https://github.com/Zuggtboy/the-gunwitch/releases/download/v1.0.0/the-gunwitch.zip",
     "protected": false,
     "coreTranslation": false,
     "library": false
